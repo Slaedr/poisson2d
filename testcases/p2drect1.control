@@ -1,0 +1,17 @@
+-mesh-file
+rect100v100.grid
+-solution-output-file
+../../output/rect2-thinlayer-ilu.vtk
+-gradient-scheme
+thinlayer
+-solver
+ilu
+-tolerance
+1e-4
+-maximum-number-of-solver-iterations
+50000
+-boundary-flags-for-the-4-boundaries
+1 0 1 0
+-boundary-values-corresponding-to-above-flags
+0 0 0 0
+

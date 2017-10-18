@@ -1,0 +1,17 @@
+-mesh-file
+../testcases/grid-poisson-2015.grid
+-solution-output-file
+curved-normtan-ilu.vtk
+-gradient-scheme
+normtan
+-solver(pj-or-ilu)
+ilu
+-tolerance
+1e-4
+-maximum-number-of-solver-iterations
+20000
+-boundary-flags-for-the-4-boundaries
+1 0 1 0
+-boundary-values-corresponding-to-above-flags
+0 0 0 0
+
