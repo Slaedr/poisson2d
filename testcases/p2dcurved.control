@@ -7,7 +7,7 @@ normtan
 -solver(pj-or-ilu)
 ilu
 -tolerance
-1e-4
+1e-6
 -maximum-number-of-solver-iterations
 20000
 -boundary-flags-for-the-4-boundaries
